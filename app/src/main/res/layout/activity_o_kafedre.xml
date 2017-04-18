@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dastan.kafedraapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:textSize="17sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_green"
+        android:onClick="onClick"
+        android:id="@+id/kontacts"
+        android:layout_width="match_parent"
+        android:text="Контакты"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="17sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_green"
+        android:onClick="onClick"
+        android:id="@+id/stories_kaf"
+        android:layout_width="match_parent"
+        android:text="История кафедры"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_green"
+        android:layout_margin="8dp"
+        android:onClick="onClick"
+        android:id="@+id/uchebno_metodic"
+        android:layout_width="match_parent"
+        android:text="Учебно методическая работа кафедры"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_green"
+        android:layout_margin="8dp"
+        android:onClick="onClick"
+        android:id="@+id/nauchnye_isledovanie"
+        android:layout_width="match_parent"
+        android:text="Научные иследования"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

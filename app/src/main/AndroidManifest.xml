@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dastan.kafedraapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Stories_kafedr" />
+        <activity android:name=".O_kafedre" />
+        <activity android:name=".AbiturientActivity" />
+        <activity android:name=".PrepodActivity" />
+        <activity android:name=".PersonActivity" />
+        <activity android:name=".StudensActivity" />
+        <activity android:name=".Students_course" />
+        <activity android:name=".RVSAdapter" />
+        <activity android:name=".KontactyActivity" />
+        <activity android:name=".StudentamActivity" />
+        <activity android:name=".AbiturientamActivity" />
+        <activity android:name=".ObrozovanieActivity" />
+        <activity android:name=".StoriesActivity" />
+        <activity android:name=".UchebnoMetoducheskiRabActivity" />
+        <activity android:name=".IsledovRabActivity" />
+        <activity android:name=".Studenty_kurs_activity" />
+        <activity android:name=".RacpicanieActivity" />
+        <activity android:name=".Uspevaimost_activity" />
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".NewsSecondActivity" />
+        <activity android:name=".RacpicanieGlavActivity"></activity>
+    </application>
+
+</manifest>

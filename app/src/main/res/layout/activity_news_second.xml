@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.dastan.kafedraapp.NewsSecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/news_2x"
+        android:id="@+id/image_news"
+        android:layout_height="150dp" />
+    <TextView
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:text="sdsf"
+        android:id="@+id/title_news"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingRight="5sp"
+        android:paddingLeft="5sp"
+        android:layout_width="match_parent"
+        android:text="adas"
+        android:textSize="16sp"
+        android:id="@+id/description"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

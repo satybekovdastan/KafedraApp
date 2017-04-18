@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#ffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/person_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_centerVertical="true"
+            android:src="@drawable/place_holder" />
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/person_avatar"
+            android:ellipsize="end"
+
+            android:maxLines="2"
+            android:paddingLeft="12dp"
+            android:paddingRight="25dp"
+            android:scrollHorizontally="true"
+            android:text="asfsdfsfddfgfg sdf sd  sdfsd sdвапвапвапвапвапвапвапвапвпвапвап вапва пва пвап "
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/person_categori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person_name"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/person_avatar"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="12dp"
+            android:scrollHorizontally="true"
+            android:text="Position"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/person_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/person_categori"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/person_avatar"
+            android:paddingLeft="12dp"
+            android:text="e-mail"
+            android:textColor="#2195f2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/person_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person_categori"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/person_price"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="28dp"-->
+        <!--android:src="@drawable/fav_passive"-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/star"-->
+
+        <!--android:layout_height="28dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignRight="@+id/person_price2"-->
+        <!--android:layout_alignEnd="@+id/person_price2" />-->
+    </RelativeLayout>
+
+
+</RelativeLayout>

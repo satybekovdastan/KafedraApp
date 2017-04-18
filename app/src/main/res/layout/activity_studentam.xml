@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_studentam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    tools:context="com.example.dastan.kafedraapp.StudentamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content">
+    <!--<Button-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:background="@drawable/button_green"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="Лекции"-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/lekcii"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:background="@drawable/button_green"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="Тесты"-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/testy"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:background="@drawable/button_green"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="Лабораторные работы"-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/lab_rab"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:background="@drawable/button_green"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="Содержание спецкурсов"-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/spec_kurc"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <Button
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_green"
+            android:layout_width="match_parent"
+            android:text="Расписание"
+            android:onClick="onClick"
+            android:id="@+id/raspicanie"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_green"
+            android:layout_width="match_parent"
+            android:text="Cмотреть свою успеваемость"
+            android:onClick="onClick"
+            android:id="@+id/knu"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </LinearLayout>
